@@ -1,0 +1,82 @@
+* {
+    margin: 0; /*espaços*/
+    padding: 0; /*preenchimentos*/
+  }
+  
+  body {
+    background-color: #FFEDD5; /* hex: 0-F*/
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /*FONTS*/
+  h1, h2, h3, .price {
+    font-family: 'Roboto Serif', serif;
+    text-transform: uppercase;
+    color: #2D2C2A;
+  }
+  
+  header {
+    padding: 32px 0; /*32 em cima e em baixo e 0 nas laterais*/
+    text-align: center;
+  }
+  
+  header, 
+  section {
+    max-width: 300px; /*tamanho máximo da caixa*/
+    margin: 0 auto; /*0 em cima e em baixo e auto nas laterais*/
+  }
+  
+  header h1 {
+    margin-bottom: 4px;
+    font-size: 28px;
+    line-height: 33px;
+  }
+  
+  header h1 span {
+    color: #995000
+  }
+  
+  header p {
+    font-size: 14px;
+    line-height: 16px;
+  
+    color: rgba(0, 0, 0, 0.7);
+  }
+  
+  section {
+    margin-bottom: 24px;
+  }
+  
+  section h2 {
+    background-color: #FED7AA;
+    padding: 8px 16px;
+    text-align: center;
+  
+    margin-bottom: 24px;
+    font-size: 18px;
+  }
+  
+  ul li {
+    margin-bottom: 16px;
+    display: flex; /*sempre que quiser colocar um elemento ao lado do outro*/
+  }
+  
+  li .details {
+    max-width: 240px;
+  }
+  
+  .details h3 {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  
+  .details p {
+    color: rgba(0, 0, 0, 0.6);/*rgb alfa - o alfa coloca uma transparência na cor*/
+    font-size: 14px;
+    line-height: 21px;
+  }
